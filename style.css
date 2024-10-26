@@ -1,0 +1,24 @@
+body {
+  background-image: url("img/background_perm.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+
+
+@font-face {
+  font-family: "who asks satan"; 
+  src: url("C:\Users\user\Desktop\crocai\fonts\who asks satan.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "FuturaHandwritten"; 
+  src: url("C:\Users\user\Desktop\crocai\fonts\FuturaHandwritten.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
