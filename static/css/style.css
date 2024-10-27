@@ -3,22 +3,44 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
 }
 
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  -webkit-text-stroke: 0px #000000;
+}
 
+.image {
+  background: url("img/TEST_COVER.png");
+  width: 600px;
+  height: 70px;
+}
 
+p {
+  padding-left: 10px;
+  padding-top: 2px;
+}
 
-@font-face {
-  font-family: "who asks satan"; 
-  src: url("C:\Users\user\Desktop\crocai\fonts\who asks satan.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+.lobby {
+  background: url("img/LOBBIES_BG.png");
+  width: 50%;
+  height: 90%;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  top: 34px;
+  right: 30px;
+}
 
-@font-face {
-  font-family: "FuturaHandwritten"; 
-  src: url("C:\Users\user\Desktop\crocai\fonts\FuturaHandwritten.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+.result {
+  background: url("img/LOBBIES_BG.png");
+  width: 80%;
+  height: 20%;
+  color: #ffffff;
+  font-size: 15px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  right: 10%;
+}
